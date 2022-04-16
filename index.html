@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Bastian Campos</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Foto de perfil -->
+                            <img src="assets/img/perfil.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Bastian Campos</h2>
+                    <h3 class="profile__profession">Desarrollador Web</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/bastian_r.c_" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/mwlite/bastian-campos-840992226" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/BastianCampos32" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">Edad</h3>
+                        <p class="profile__info-description">
+                            17 <br> Años
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">Cumpleaños</h3>
+                        <p class="profile__info-description">
+                            21 <br> Septiembre
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">Mascotas</h3>
+                        <p class="profile__info-description">2 <br> Un perro y un gato</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <!-- Insert your CV -->
+                    <a download="" href="assets/pdf/Bastian-Campos-CV.pdf" class="button">
+                        Descargar CV <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://api.whatsapp.com/send?phone=+56930629460&text=Hola, Como estas!" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- Insert your brand name or profile -->
+                        <a href="https://paypal.me/bastyyy678" target="_blank" class="button button__small button__gray">
+                            <i class="ri-paypal-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Cuentas
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Sobre Mi
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== Cuentas ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="assets/img/Spotify.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Spotify</span>
+                                    <h3 class="projects__title">⚪~𝔚𝔥𝔦𝔱𝔢 𝔐𝔲𝔰𝔦𝔠~⭐</h3>
+                                    <a href="https://open.spotify.com/playlist/3phyQDSiubGn88dK4uiCrZ?si=efb0807e58b84adf" target="_black" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/Facebook.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Facebook</span>
+                                    <h3 class="projects__title">Bastian Campos</h3>
+                                    <a href="https://www.facebook.com/sergiocampos9788" target="_black" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/Tik-Tok.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Tik Tok</span>
+                                    <h3 class="projects__title">b.campos_01</h3>
+                                    <a href="https://tiktok.com/@b.campos_01" target="_black" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/Instagram.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Instagram</span>
+                                    <h3 class="projects__title">_.soy_bastian._</h3>
+                                    <a href="https://instagram.com/_.soy_bastian._/" target="_black" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/Instagram.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Instagram</span>
+                                    <h3 class="projects__title">crownifill</h3>
+                                    <a href="https://instagram.com/crownifill/" target="_black" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!--=============== Sobre Mi ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Lo que me gusta</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Helado</h3>
+                                            <span class="skills__level">Fruto del bosque</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Deportes</h3>
+                                            <span class="skills__level">Basketball</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Comida</h3>
+                                            <span class="skills__level">Lasaña</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Color</h3>
+                                            <span class="skills__level">Negro y el azul</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Dulces</h3>
+                                            <span class="skills__level">Gomitas</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Salado</h3>
+                                            <span class="skills__level">Doritos</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Lo que no me gusta</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-close-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Helado</h3>
+                                            <span class="skills__level">Chocolate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-close-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Deportes</h3>
+                                            <span class="skills__level">voleibol</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-close-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Comida</h3>
+                                            <span class="skills__level">cochayuyo</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-close-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Dulces</h3>
+                                            <span class="skills__level">Chocolate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-close-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Salado</h3>
+                                            <span class="skills__level">mani salado y picante <br>no se como se llaman</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Bastian Campos. Todos los derechos reservados
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
